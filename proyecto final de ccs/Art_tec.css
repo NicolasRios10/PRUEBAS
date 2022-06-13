@@ -1,0 +1,141 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+body {
+    background-image:url(img/fon.gif);
+    background-size: 10%;
+    display: block;
+    text-align: center;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trrebuchet MS", Verdana, sans-serif;
+    max-width: 2000px;
+    width: 100%;
+}
+
+header{
+    font-family: Monospace;
+}
+
+.logo {
+    background-image: url(img/cabes.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 16%;
+    text-align: right;
+    font-size: 1.8em;
+    color: rgb(143, 23, 23);
+}
+
+.naveg{
+    background-color: rgb(35, 38, 92);
+    box-shadow: 0px 4px 3px rgba(0, 0, 0, .5);
+}
+.naveg ul{
+    list-style: none;
+}
+
+.menu > li{
+    position: relative;
+    display: inline-block;/*esten lado a lado*/
+}
+
+.menu > li > a{
+    display: block;
+    padding: 15px 20px;
+    color: rgb(104, 34, 17);
+    text-decoration: none;
+    
+}
+
+.menu li a:hover{
+    background: rgb(90, 10, 10);
+    color:darkmagenta;
+    transition: all .3s;
+}
+
+/*sub menu*/
+
+.submenu{
+    position:absolute;
+    background: rgba(13, 97, 146, 0.404);
+    width: 120%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.submenu li a{
+    display: block;
+    padding: 15px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu li:hover .submenu{
+    visibility: visible;
+    opacity: 1;
+}
+
+.agrupar{
+    margin: 20px 10%;
+    width: 80%;
+    background: #d2dae2;
+}
+
+.spaaa_1{
+    padding: 50px 30px;
+}
+
+.spaaa_2{
+    padding-bottom: 33px;
+}
+
+.present{
+    background-image: url(img/bienn.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 20%;
+    text-align: right;
+    font-size: 2.8em;
+    color: rgb(143, 23, 23); 
+}
+
+.social{
+
+    padding: 50px;
+}
+
+.social a{
+    padding-right: 23px;
+}
+
+.partes{
+    text-align: left;
+    padding: 10px 20px 10px 20px;
+}
+
+.partes a{
+    text-decoration: none;
+    list-style: none;
+    color: rgba(184, 85, 14, 0.726);
+}
+
+.partes p{
+    text-align:justify;
+    padding-bottom: 20px;
+}
+
+.pie{
+    background-image: url(img/piee.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 12%;
+}
+
+.abajo{
+    padding-bottom: 40px;
+}

@@ -1,0 +1,78 @@
+@charset "UTF-8";
+/* CSS Document */
+*{
+margin:0;
+padding:0;
+}
+body{
+font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+line-height:1.3em;
+font-size:1em;
+background:#f0f8fa00 url(fondo1.jpg) top repeat-x;
+}
+.container1{
+    width:80%;
+    max-width:1000px;
+    background: #68afe644 ;
+    margin: 20px auto;
+    border-radius:2%;
+    }
+header{
+        width:100%;
+        float:left;
+        }
+        header h1{
+        margin-left:20px;
+        float:left;
+        }
+        header h2{
+        float:right;
+        font-size:1.3em;
+        margin-top:110px;
+        margin-right:50px;
+        }
+        nav{
+        width:100%;
+        clear:both;
+        padding:10px;
+        }
+        nav ul{
+        width:100%;
+        list-style:none;
+        margin-bottom:30px;
+        }
+        nav ul li{
+        text-align:center;
+        width:25%;
+        float:left;
+        }
+        aside{
+            width:30%;
+            float:right;
+            margin-left:20px;
+            margin-top:20px;
+            }
+            aside article{
+            width:90%;
+            margin-bottom:50px;
+            border-bottom:dotted 1px #54afc593;
+            padding-bottom:20px;
+            }
+       
+table{
+    background-color: white;
+    text-align: auto;
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td{
+    padding: 0;
+}
+thead{
+    background-color: #472463;
+    border-bottom: solid 5px #330f36;
+    color: white;
+}
+tr:nth-child(even){
+    background-color: #ddd;
+}
